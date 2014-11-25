@@ -31,7 +31,6 @@ app.get('/', function (req, res, next) {
       }
       res.send(items1);
     });
-    res.send('Y姐天下无敌');
 });
 
 app.listen(process.env.PORT || 3000);
